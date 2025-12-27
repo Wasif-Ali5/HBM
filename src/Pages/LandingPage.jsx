@@ -4,7 +4,7 @@ import Features from "../components/Features.jsx";
 import ProductSection from "../components/ProductSection.jsx";
 import { ProductImages, ArrivalImages } from "../assets/data/products.js";
 import ActionBanner from "../components/ActionBar.jsx";
-import CallToAction from "../components/CalltoAction.jsx";
+import CalltoAction from "../components/CalltoAction.jsx";
 
 const LandingPage = () => {
   return (
@@ -17,7 +17,7 @@ const LandingPage = () => {
         titleSecond="Belts Category"
         images={ProductImages}
       />
-      <CallToAction />
+      <CalltoAction />
       <ProductSection
         isTitlePresent={true}
         titleFirst="Featured"
