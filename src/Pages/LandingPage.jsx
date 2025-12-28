@@ -3,8 +3,8 @@ import Hero from "../components/Hero.jsx";
 import Features from "../components/Features.jsx";
 import ProductSection from "../components/ProductSection.jsx";
 import { ProductImages, ArrivalImages } from "../assets/data/products.js";
-import ActionBanner from "../components/ActionBar.jsx";
-import CalltoAction from "../components/CalltoAction.jsx";
+import ActionBar from "../components/ActionBar.jsx";
+import CallToAction from "../components/CallToAction.jsx";
 
 const LandingPage = () => {
   return (
@@ -17,14 +17,14 @@ const LandingPage = () => {
         titleSecond="Belts Category"
         images={ProductImages}
       />
-      <CalltoAction />
+      <CallToAction />
       <ProductSection
         isTitlePresent={true}
         titleFirst="Featured"
         titleSecond="Wallets"
         images={ArrivalImages}
       />
-      <ActionBanner />
+      <ActionBar />
     </>
   );
 };
